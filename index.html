@@ -1,0 +1,210 @@
+<!--
+    Ormi Front-end Project
+    작성자 : 하태민
+    파일명 : index.html
+    생성일 : 2024년 1월 15일
+-->
+
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HODU</title>
+
+
+<!--    CSS    -->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/kakaomap.css">
+
+
+<!--    font-awesome    -->
+    <script src="https://kit.fontawesome.com/7c9e7a71e3.js" crossorigin="anonymous"></script>
+
+
+<!--    pretendard font    -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+
+</head>
+<body>
+<!--    modal    -->
+    <div class="modal-wrapper" style="display:none">
+        <div class="modal">
+            <img src="./img/cat%201.png" alt="귀여운 고양이, cute cat">
+            <h1>Thank You!</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing industry. </p>
+            <div class="close-wrapper">
+                <button id="close">OK! I Love HODU</button>
+            </div>
+        </div>
+    </div>
+<!--    /modal    -->
+
+
+<!--    header    -->
+    <header>
+
+        <div class="header_navbar">
+            <div class="header_navbar_img">
+                <img src="./img/Logo-fin.svg" alt="호두 로고, Hodu Logo">
+            </div>
+
+            <ul class="navbar_menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Support</a></li>
+                <li><button type="button">Download</button></li>
+            </ul>
+        </div>
+
+        <div class="header_container">
+            <div class="container_left">
+                <h1>Lorem Ipsum is simply <br>
+                    dummy text of the printing and</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and <br>
+                    typesetting industry. <br>
+                    Lorem Ipsum has been the industry's standard dummy text <br>
+                    ever since the 1500s, when an unknown</p>
+                <button type="button">Download</button>
+            </div>
+
+            <div class="container_right">
+                <img src="./img/img_cat_png.png" alt="박스 쓴 고양이, Box and cat">
+            </div>
+        </div>
+
+    </header>
+<!--    /header    -->
+
+
+<!--    main    -->
+    <main>
+
+        <section class="main_top">
+            <div class="main_top_left">
+                <img src="./img/img_4.png" alt="누워있는 고양이, Sleep Cat">
+            </div>
+
+            <div class="main_top_right">
+                <h1>Lorem Ipsum is simply
+                    dummy text of the printing
+                    and dummy text</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </section>
+
+
+        <section class="main_middle">
+            <h1>dummy text of the printing and dummy</h1>
+            <p class="text_1">Lorem Ipsum is <span>simply dummy</span> text of the printing and typesetting industry. <br>
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+
+            <ul class="image_list">
+                <li><img src="./img/layout_1.png" alt='고양이, cat'></li>
+                <li><img src="./img/layout_2.png" alt='고양이, cat'></li>
+                <li><img src="./img/layout_3.png" alt='고양이, cat'></li>
+                <li><img src="./img/layout_4.png" alt='고양이, cat'></li>
+                <li><img src="./img/layout_5.png" alt='고양이, cat'></li>
+                <li><img src="./img/layout_6.png" alt='고양이, cat'></li>
+            </ul>
+
+            <!--    imgLoading.js    -->
+            <script type="text/javascript" src="./js/imgLoading.js"></script>
+
+            <div class="img_text_box">
+                <strong class="text_2">Continue exploring HODU</strong>
+                <button id="scroll">Show more</button>
+            </div>
+        </section>
+
+        <!--    imgPlus.js    -->
+        <script type="text/javascript" src="./js/imgPlus.js"></script>
+
+        <section class="main_bottom">
+            <div class="main_bottom_hr">
+                <hr>
+            </div>
+
+            <div class="main_bottom_title">
+                <h1>Where you’ll be</h1>
+                <p>330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
+            </div>
+
+            <!--    Kakako Map API    -->
+            <div class="map_wrap">
+                <div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div>
+                <div class="custom_typecontrol radius_border">
+                    <span id="btnRoadmap" class="selected_btn" onclick="setMapType('roadmap')">지도</span>
+                    <span id="btnSkyview" class="btn" onclick="setMapType('skyview')">스카이뷰</span>
+                </div>
+                <div class="custom_zoomcontrol radius_border">
+                    <span onclick="zoomIn()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_plus.png" alt="확대"></span>
+                    <span onclick="zoomOut()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_minus.png" alt="축소"></span>
+                </div>
+            </div>
+
+            <!--    Kakako Map API, JavaScript    -->
+            <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0959b0422c743e292d211ce849419bee"></script>
+            <script type="text/javascript" src="./js/kakaomap.js"></script>
+        </section>
+
+    </main>
+<!--    /main    -->
+
+
+<!--    footer    -->
+
+    <footer>
+        <article class="footer_spot">
+            <div class="email_box">
+
+                <div class="email_box_text">
+                    <h1>Subscribe to our Blog post</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p>Lorem Ipsum has been the industry's standard dummy text</p>
+                </div>
+                
+                <div class="email_box_area">
+                    <div class="email_box_enter">
+                        <img src="./img/mail.svg" alt="이메일 아이콘, email icon">
+                        <input type="email" placeholder="Enter your e-mail address">
+                        <button id="open">Subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+        </article>
+
+        <div class="footer_cat">
+            <div class="top_arrow">
+                <img class="img_before" src="./img/scroll-top-btn.png" alt="윗쪽 화살표, top arrow">
+                <img class="img_hover" src="./img/scroll-top-btn-hover.png" alt="윗쪽 화살표, top arrow">
+            </div>
+        </div>
+
+        <div class="footer_info">
+            <div class="footer_img">
+                <img src="./img/Group.png" alt="호두 로고, Hodu Logo">
+            </div>
+
+
+            <ul class="footer_icon">
+                <li><a href="#"><img src="./img/icon-blog.png" alt="블로그 로고, blog"></a></li>
+                <li><a href="#"><img src="./img/icon-insta.png" alt="인스타그램 로고, instagram"></a></li>
+                <li><a href="#"><img src="./img/icon-facebook.png" alt="페이스북 로고, facebook"></a></li>
+                <li><a href="#"><img src="./img/icon-youtube.png" alt="유튜브 로고, youtube"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+<!--    /footer    -->
+
+    <!--    modal.js    -->
+    <script type="text/javascript" src="./js/modal.js"></script>
+</body>
+
+    <!--    scrollUp.js   -->
+    <script type="text/javascript" src="./js/scrollUp.js"></script>
+</html>

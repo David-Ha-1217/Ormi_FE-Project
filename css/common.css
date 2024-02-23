@@ -1,0 +1,472 @@
+/*
+
+Ormi Front-end Project
+작성자 : 하태민
+파일명 : common.css
+생성일 : 2024년 1월 15일
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, li {
+    list-style: none;
+}
+
+/*  modal  */
+.modal-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-wrapper > .modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/modal.png");
+    padding: 24px 16px;
+    border-radius: 30px;
+    width: 600px;
+    height: 400px;
+}
+
+.modal > h1 {
+    font-size: 36px;
+    line-height: 45px;
+    color: #D97652;
+}
+
+.modal > p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.close-wrapper > button {
+    margin-top: 30px;
+    width: 183px;
+    height: 50px;
+    border: 0;
+    border-radius: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    background: #D97652;
+    color: #ffffff;
+}
+
+/*  /modal  */
+
+
+/*  header */
+
+header {
+    height: 900px;
+    background-color: #F2E9D8;
+}
+
+header > .header_navbar {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    min-width: 1000px;
+    max-width: 1280px;
+    height: 102px;
+}
+
+.header_navbar > .header_navbar_img {
+    display: flex;
+    align-items: center;
+}
+
+.header_navbar_img > img {
+    width: 140px;
+    height: 40px;
+}
+
+.header_navbar > .navbar_menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+    min-width: 860px;
+    max-width: 1140px;
+}
+
+.navbar_menu > li {
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.navbar_menu > li:first-child { margin-left: 0; }
+
+.navbar_menu > li > button{
+    margin-left: 50px;
+    width: 140px;
+    height: 50px;
+    border: 0;
+    border-radius: 40px;
+    font-size: 16px;
+    background: #D97652;
+    color: #ffffff;
+}
+
+header > .header_container {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    min-width: 1000px;
+    max-width: 1280px;
+    height: 798px;
+}
+
+.header_container > .container_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    min-width: 585px;
+    max-width: 865px;
+}
+
+.container_left > h1 {
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.container_left > p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.container_left >  button {
+    margin-top: 30px;
+    width: 140px;
+    height: 50px;
+    border: 0;
+    border-radius: 40px;
+    font-size: 16px;
+    background: #D97652;
+    color: #ffffff;
+}
+
+.header_container > .container_right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.container_right > img { width: 415px; }
+
+/*  /header */
+
+
+/*    main    */
+
+main {
+    /*height: 2850px;*/
+}
+
+main > .main_top {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    min-width: 1000px;
+    max-width: 1280px;
+    height: 550px;
+}
+
+.main_top > .main_top_left {
+    display: flex;
+    align-items: center;
+}
+
+.main_top_left > img {
+    width: 660px;
+    height: 390px;
+    border-radius: 30px;
+}
+
+.main_top > .main_top_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 110px;
+    width: 90%;
+    min-width: 250px;
+    max-width: 540px;
+}
+
+.main_top_right > h1 {
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.main_top_right > p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main_middle {
+    margin: 0 auto;
+    width: 90%;
+    min-width: 1000px;
+    max-width: 1280px;
+}
+
+.main_middle > h1 {
+    text-align: center;
+    color: #D97652;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.main_middle > .text_1 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main_middle > p > span {
+    color: #D97652;
+}
+
+.img_text_box{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_text_box > .text_2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.img_text_box > #scroll {
+    margin-top: 30px;
+    width: 143px;
+    height: 50px;
+    border: 0;
+    border-radius: 40px;
+    font-size: 16px;
+    background: #D97652;
+    color: #ffffff;
+}
+
+.main_middle > .image_list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.image_list > li {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.image_list > li > img {
+    width: 378px;
+    height: 378px;
+    border-radius: 30px;
+    filter: drop-shadow(3px 3px 3px #ffffff);
+}
+
+.main_bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 90%;
+    min-width: 1000px;
+    max-width: 1280px;
+    height: 880px;
+}
+
+.main_bottom_title > h1 {
+    font-size: 48px;
+    line-height: 45px;
+}
+
+.main_bottom_title > p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*    /main    */
+
+/*    footer    */
+
+footer {
+    height: 541px;
+    /*position: relative;*/
+}
+
+footer > .footer_spot {
+    margin: 0 auto;
+    height: 201px;
+    position: relative;
+    bottom: -20%;
+}
+
+.footer_spot > .email_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 1280px;
+    height: 201px;
+    background-color: #263140;
+    border-radius: 30px;
+    /*position: relative;*/
+}
+
+.email_box > .email_box_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.email_box_text > h1 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 17px;
+    color: #F2E9D8;
+}
+
+.email_box_text > P {
+    font-size: 14px;
+    line-height: 24px;
+    margin: inherit;
+    color: #F2E9D8;
+}
+
+.email_box > .email_box_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 170px;
+}
+
+.email_box_area > .email_box_enter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 530px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #ffffff;
+}
+
+.email_box_enter > img { width: 24px; }
+
+.email_box_enter > input {
+    width: 315px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    outline: none;
+}
+
+.email_box_enter > button {
+    width: 135px;
+    height: 50px;
+    border: 0;
+    border-radius: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    background: #D97652;
+    color: #ffffff;
+    /*margin: 0 24px;*/
+}
+
+footer > .footer_cat {
+    display: flex;
+    height: 340px;
+    background: url("../img/img_5.png") no-repeat center center;
+}
+
+.footer_cat > .top_arrow {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0 auto;
+    width: 90%;
+    min-width: 1000px;
+    max-width: 1280px;
+}
+
+.top_arrow > .img_before,
+.top_arrow > .img_hover {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.top_arrow > .img_hover { display: none; }
+
+.top_arrow:hover > .img_before { display: none; }
+
+.top_arrow:hover > .img_hover { display: inline-block; }
+
+footer > .footer_info {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    min-width: 1000px;
+    max-width: 1280px;
+    height: 160px;
+}
+
+.footer_info > .footer_img {
+    display: flex;
+    align-items: center;
+}
+
+.footer_img > img {
+    width: 226px;
+    height: 70px;
+}
+
+.footer_info > .footer_icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+    min-width: 775px;
+    max-width: 1054px;
+}
+
+.footer_icon > li { margin-left: 20px; }
+
+.footer_icon > li:first-child { margin-left: 0; }
+
+.footer_icon > li > a > img {
+    width: 42px;
+    height: 42px;
+}
+
+/*    /footer    */

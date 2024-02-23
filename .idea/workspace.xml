@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c49b0a68-27c4-4cce-be4e-f69ff2916aab" name="변경" comment="Re-update Commit." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;David-Ha-1217&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c3064df8-1d1a-4dd4-8bfd-034d9c172e66" />
+        <option name="url" value="https://github.com/David-Ha-1217/Ormi_FE-Project.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2aytGzNAlcZHIFxkSrdPb4GdwIj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "ignore_missing_gitignore": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Ha Tae Min/Desktop/Development/ESTsoft/Project/Hodu",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Hodu" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Hodu" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="c49b0a68-27c4-4cce-be4e-f69ff2916aab" name="변경" comment="" />
+      <created>1705302557450</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705302557450</updated>
+      <workItem from="1705302558678" duration="11920000" />
+      <workItem from="1705314627685" duration="3905000" />
+      <workItem from="1705366964038" duration="16432000" />
+      <workItem from="1705387307011" duration="11180000" />
+      <workItem from="1705400203018" duration="445000" />
+      <workItem from="1705406361142" duration="603000" />
+      <workItem from="1705450162478" duration="4288000" />
+      <workItem from="1705470416567" duration="2142000" />
+      <workItem from="1705472792067" duration="181000" />
+      <workItem from="1705472999191" duration="7938000" />
+      <workItem from="1705538189037" duration="13620000" />
+      <workItem from="1705557007059" duration="11283000" />
+      <workItem from="1705620340362" duration="3580000" />
+      <workItem from="1705636800312" duration="20095000" />
+      <workItem from="1705659145624" duration="251000" />
+      <workItem from="1705660461717" duration="769000" />
+      <workItem from="1705663304591" duration="16000" />
+      <workItem from="1705663385799" duration="69000" />
+      <workItem from="1705802639614" duration="10547000" />
+      <workItem from="1705816568294" duration="266000" />
+      <workItem from="1705817709339" duration="1608000" />
+      <workItem from="1705880209065" duration="843000" />
+      <workItem from="1705883217027" duration="617000" />
+      <workItem from="1705887562737" duration="147000" />
+      <workItem from="1705890963338" duration="145000" />
+      <workItem from="1705897319603" duration="115000" />
+      <workItem from="1705899001822" duration="600000" />
+      <workItem from="1705902325336" duration="8000" />
+      <workItem from="1706145040077" duration="89000" />
+      <workItem from="1708686354927" duration="572000" />
+      <workItem from="1708686946258" duration="636000" />
+      <workItem from="1708687862767" duration="179000" />
+      <workItem from="1708688051662" duration="428000" />
+    </task>
+    <task id="LOCAL-00001" summary="FE 프로젝트 2일차">
+      <option name="closed" value="true" />
+      <created>1705472017403</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705472017403</updated>
+    </task>
+    <task id="LOCAL-00002" summary="FE 프로젝트 2일차">
+      <option name="closed" value="true" />
+      <created>1705472051494</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705472051494</updated>
+    </task>
+    <task id="LOCAL-00003" summary="FE 프로젝트 2일차">
+      <option name="closed" value="true" />
+      <created>1705473654165</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705473654166</updated>
+    </task>
+    <task id="LOCAL-00004" summary="FE 프로젝트 2일차">
+      <option name="closed" value="true" />
+      <created>1705473701578</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705473701578</updated>
+    </task>
+    <task id="LOCAL-00005" summary="FE 프로젝트 3일차">
+      <option name="closed" value="true" />
+      <created>1705480090791</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705480090791</updated>
+    </task>
+    <task id="LOCAL-00006" summary="FE 프로젝트 4, 5일차">
+      <option name="closed" value="true" />
+      <created>1705659060784</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705659060785</updated>
+    </task>
+    <task id="LOCAL-00007" summary="FE 프로젝트 6일차, Finish">
+      <option name="closed" value="true" />
+      <created>1705816802761</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705816802761</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Re-update Commit.">
+      <option name="closed" value="true" />
+      <created>1708688149003</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708688149003</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="FE 프로젝트 2일차" />
+    <MESSAGE value="FE 프로젝트 3일차" />
+    <MESSAGE value="FE 프로젝트 4, 5일차" />
+    <MESSAGE value="FE 프로젝트 6일차, Finish" />
+    <MESSAGE value="Re-update Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Re-update Commit." />
+  </component>
+</project>
