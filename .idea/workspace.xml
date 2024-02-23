@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c49b0a68-27c4-4cce-be4e-f69ff2916aab" name="변경" comment="Re-update Commit." />
+    <list default="true" id="c49b0a68-27c4-4cce-be4e-f69ff2916aab" name="변경" comment="Re-update Commit.">
+      <change afterPath="$PROJECT_DIR$/css/kakaomap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/kakaomap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scrollUP.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scrollUp.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +55,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -67,6 +74,9 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Hodu/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Hodu" />
       <method v="2">
@@ -80,6 +90,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -122,6 +137,7 @@
       <workItem from="1708686946258" duration="636000" />
       <workItem from="1708687862767" duration="179000" />
       <workItem from="1708688051662" duration="428000" />
+      <workItem from="1708688494463" duration="1678000" />
     </task>
     <task id="LOCAL-00001" summary="FE 프로젝트 2일차">
       <option name="closed" value="true" />
@@ -187,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708688149003</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Re-update Commit.">
+      <option name="closed" value="true" />
+      <created>1708688506231</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708688506231</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
